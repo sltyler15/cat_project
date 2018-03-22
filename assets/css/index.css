@@ -10,3 +10,89 @@ body {
 /* On devices wider than 940px */
 @media(min-width: 940px) {
 }
+h1 {
+  font-family: "PT Sans Narrow";
+  font-weight:bold;
+  font-size: 1.875em;
+  color: #323232;
+  margin-top: 80px;
+  marging-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-family:"PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: .875em;
+  line-height: 1.75;
+  color: #f26522;
+}
+nav h1 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1em;
+  color: #323232;
+  height: 80px;
+}
+nav p {
+  font-family: "PT Sans";
+  font-weight: normal;
+  font-size: .9em;
+  color: #323232;
+}
+footer h1 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #323232;
+  height: 125px;
+  background-color: #00897f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main img {
+  border-radius: 50%;
+  width: 250px;
+}
+.hours .contact {
+  padding: 30px;
+}
+.About {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: #eeeeee;
+}
+.box h2 {
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+}
+.splash img {
+  display: block;
+  width:100%;
+  height:auto;
+}
